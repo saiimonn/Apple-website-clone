@@ -2,8 +2,8 @@ import IphoneHero from './assets/IphoneHero.png';
 
 function Iphone() {
     return(
-        <div class = "bg-gray-100 w-full h-170 overflow-hidden flex items-end justify-center">
-            <div class = "pt-[61px] flex flex-col items-center gap-4 absolute left-145 top-20 z-50">
+        <div class = "bg-gray-100 w-full h-170 overflow-hidden flex flex-col items-center justify-center">
+            <div class = "pt-[161px] flex flex-col items-center gap-4 z-50">
                 <h1 class = "text-5xl font-semibold">iPhone</h1>
                 <p class = "text-2xl font-light">Meet the iPhone 16 family.</p>
 
@@ -17,7 +17,7 @@ function Iphone() {
                     </button>
                 </div>
 
-                <p class = "mt-4 text-xl font-medium bg-gradient-to-r from-blue-500 via-purple-500 to-orange-500 bg-clip-text text-transparent">Built for Apple Intelligence.</p>
+                <p class = "mt-2 mb-4 text-xl font-medium bg-gradient-to-r from-blue-500 via-purple-500 to-orange-500 bg-clip-text text-transparent">Built for Apple Intelligence.</p>
 
                 
             </div>
