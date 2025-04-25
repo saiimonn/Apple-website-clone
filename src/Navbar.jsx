@@ -1,7 +1,9 @@
 
-function Navbar() {
+function Navbar({ showRegionHeader, setRegionHeader}) {
+    
     return(
         <div class = "flex flex-col z-100 fixed">
+            {showRegionHeader && (
             <header class = "flex flex-row justify-evenly px-60 py-4 bg-gray-100 w-full h-18 gap-6 items-center">
                 <div class = "w-1/2 px-4">
                     <p class = "text-xs font-light">Choose another country or region to see content specific to your location and shop online.</p>
@@ -30,14 +32,14 @@ function Navbar() {
                         <p class = "text-sm font-light">Continue</p>
                     </button>
 
-                    <button class = "cursor-pointer">
+                    <button onClick = {() => setRegionHeader(false)} class = "cursor-pointer">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
                         </svg>
                     </button>
-
                 </div>
             </header>
+        )}
 
             <div class = "flex flex-row w-screen px-55 bg-white">
                 <nav class = "px-4 py-2 flex flex-row font-light gap-8 items-center">
