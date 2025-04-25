@@ -2,7 +2,7 @@
 
 function Region() {
     return(
-        <header class = "flex flex-row justify-evenly px-60 py-4 bg-gray-100 w-full h-18 gap-6">
+        <header class = "flex flex-row justify-evenly px-60 py-4 bg-gray-100 w-full h-18 gap-6 items-center">
             <div class = "w-1/2 px-4">
                 <p class = "text-xs font-light">Choose another country or region to see content specific to your location and shop online.</p>
             </div>

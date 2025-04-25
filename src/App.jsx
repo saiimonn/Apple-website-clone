@@ -1,6 +1,7 @@
 import Region from './Region.jsx'
 import Navbar from './Navbar.jsx'
 import Iphone from './Iphone.jsx'
+import Watch from './Watch.jsx'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
         <Region></Region>
         <Navbar></Navbar>
         <Iphone></Iphone>
+        <Watch></Watch>
     </div>
   );
 }
