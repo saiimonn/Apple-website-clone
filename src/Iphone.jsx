@@ -3,7 +3,7 @@ import IphoneHero from './assets/IphoneHero.png';
 function Iphone() {
     return(
         <div class = "bg-gray-100 w-full h-145 overflow-hidden flex items-end justify-center">
-            <div class = "pt-[61px] flex flex-col items-center gap-4 absolute left-150 top-15 z-50">
+            <div class = "pt-[61px] flex flex-col items-center gap-4 absolute left-150 top-25 z-50">
                 <h1 class = "text-5xl font-semibold">iPhone</h1>
                 <p class = "text-2xl font-light">Meet the iPhone 16 family.</p>
 
