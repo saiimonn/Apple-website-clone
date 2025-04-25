@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Navbar from './Navbar.jsx'
 import Iphone from './Iphone.jsx'
 import Watch from './Watch.jsx'
+import MothersDay from './MothersDay.jsx'
 
 function App() {
   const[showRegionHeader, setRegionHeader] = useState(true);
@@ -11,6 +12,7 @@ function App() {
         <Navbar showRegionHeader={showRegionHeader} setRegionHeader={setRegionHeader} />
         <Iphone showRegionHeader={showRegionHeader} />
         <Watch></Watch>
+        <MothersDay></MothersDay>
     </div>
   );
 }
