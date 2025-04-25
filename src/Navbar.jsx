@@ -37,7 +37,7 @@ function Navbar() {
                 </div>
             </header>
 
-            <div class = "flex flex-row w-full px-60 bg-white">
+            <div class = "flex flex-row w-screen px-55 bg-white">
                 <nav class = "px-4 py-2 flex flex-row font-light gap-8 items-center">
                     <div href="#" class = "text-md"></div>
                     <div class = "flex flex-row justify-evenly gap-8 items-center">
