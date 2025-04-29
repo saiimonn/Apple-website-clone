@@ -9,7 +9,7 @@ function MothersDay() {
                     <p class = "text-3xl font-light">Find the perfect gift for Mom.</p>
                     <button class = "px-6 py-3 bg-blue-500 text-white rounded-full font-light">Shop</button>
                 </div>
-                <img src={MdayPic} alt="" class = " object-fill"/>
+                <img src={MdayPic} alt="" class = "w-[3008px] h-[580px]"/>
             </div>
         </>
     );
