@@ -1,11 +1,11 @@
 import IphoneHero from './assets/IphoneHero.png';
 
-function Iphone({ showRegionHeader }) {
+function Iphone() {
     return(
-        <div class = "bg-gray-100 w-full h-170 overflow-hidden flex flex-col items-center justify-center" style = {{height: showRegionHeader ? "42.5rem" : "38.5rem"}}>
-            <div class = "mt-30 flex flex-col items-center gap-4 z-50">
-                <h1 class = "text-5xl font-semibold">iPhone</h1>
-                <p class = "text-2xl font-light">Meet the iPhone 16 family.</p>
+        <div class = "bg-gray-100 w-full h-170 overflow-hidden flex flex-col items-center justify-center mt-3">
+            <div class = "flex flex-col pt-[58px] items-center gap-4 z-50">
+                <h1 class = "text-6xl font-semibold">iPhone</h1>
+                <p class = "text-3xl font-light">Meet the iPhone 16 family.</p>
 
                 <div class = "flex flex-row gap-4 h-12">
                     <button class = "px-6 bg-blue-500 text-white rounded-full">
@@ -22,7 +22,7 @@ function Iphone({ showRegionHeader }) {
                 
             </div>
 
-            <img src={IphoneHero} alt="iPhone Hero" class="mt-8 w-[600px] h-[300px]"/>
+            <img src={IphoneHero} alt="iPhone Hero" class="mt-8 w-[600px] h-[355px]"/>
         </div>
     );
 }

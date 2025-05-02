@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Navbar from './Navbar.jsx';
 import Iphone from './Iphone.jsx';
 import Watch from './Watch.jsx';
-import MothersDay from './MothersDay.jsx';
+import Ipad from './Ipad.jsx';
 import Gridsection from './Gridsection.jsx'
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
   return (
     <div class = "min-h-screen w-full flex flex-col">
         <Navbar showRegionHeader={showRegionHeader} setRegionHeader={setRegionHeader} />
-        <Iphone showRegionHeader={showRegionHeader} />
-        <Watch/>
-        <MothersDay/>
+        <Watch showRegionHeader={showRegionHeader}/>
+        <Ipad/>
+        <Iphone/>
         <Gridsection/>
     </div>
   );
