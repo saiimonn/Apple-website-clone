@@ -1,9 +1,9 @@
-import MdayMD from './assets/MothersDayMD.png';
-import macPic from './assets/MacbookMD.jpg';
-import macDo from './assets/MacDoMD.jpg';
-import tradePic from './assets/TradeIn.jpg';
-import promoPic from './assets/PromoMD.jpg';
-import cardPic from './assets/Card.jpg';
+import MdayMD from './assets/GridImages/MothersDayMD.png'
+import macPic from './assets/GridImages/MacbookMD.jpg';
+import macDo from './assets/GridImages/MacDoMD.jpg';
+import tradePic from './assets/GridImages/TradeIn.jpg';
+import promoPic from './assets/GridImages/PromoMD.jpg';
+import cardPic from './assets/GridImages/Card.jpg';
 
 import Macbook from './Grid Components/MacbookAir.jsx';
 import MacDoesThat from './Grid Components/MacDoesThat.jsx';
