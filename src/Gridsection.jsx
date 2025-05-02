@@ -15,13 +15,13 @@ import Mday from './Grid Components/MothersDay.jsx';
 function Gridsection() {
     return(
         <>
-            <div class = "grid grid-cols-2 mx-2 mt-4 gap-4">
+            <div class = "grid grid-cols-1 sm:grid-cols-2 mx-2 mt-4 gap-4">
                 <div class = "w-full bg-gray-100 flex justify-center">
                     <a href="#" class = "flex flex-col items-center">
                         <div class = "text-center absolute text-white px-4 py-2 z-10">
                             <Mday/>
                         </div>
-                        <img src={MdayMD} alt="" />
+                        <img src={MdayMD} alt="" class = "z-0 h-screen"/>
                     </a>
                 </div>
 
