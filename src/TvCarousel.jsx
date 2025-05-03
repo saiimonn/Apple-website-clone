@@ -1,80 +1,61 @@
-import { useState } from "react";
-import baseball from './assets/CarouselImages/baseball.jpeg';
-import careme from './assets/CarouselImages/careme.jpeg';
-import dThief from './assets/CarouselImages/dopeThief.jpg';
-import friends from './assets/CarouselImages/friendsNeighbors.jpg';
-import govCheese from './assets/CarouselImages/govCheese.jpg';
-import season from './assets/CarouselImages/seasonPass.jpg';
-import severance from './assets/CarouselImages/severance.jpg';
-import shrinking from './assets/CarouselImages/shrinking.jpeg';
-import ted from './assets/CarouselImages/tedLasso.jpeg';
-import studio from './assets/CarouselImages/theStudio.jpeg';
+import {useState} from "react";
+import Baseball from './TV-Carousel-Components/Baseball.jsx';
+import Careme from './TV-Carousel-Components/Careme.jsx';
+import DopeThief from './TV-Carousel-Components/DopeThief.jsx';
+import FriendNeighbor from './TV-Carousel-Components/FriendNeighbor.jsx';
+import GovCheese from './TV-Carousel-Components/GovCheese.jsx';
+import Season from './TV-Carousel-Components/SeasonPass.jsx';
+import Severance from './TV-Carousel-Components/Severance.jsx';
+import Shrink from './TV-Carousel-Components/Shrink.jsx';
+import Ted from './TV-Carousel-Components/TedLasso.jsx';
+import Studio from './TV-Carousel-Components/TheStudio.jsx';
 
-const images = [
-  friends,
-  studio,
-  careme,
-  severance,
-  season,
-  dThief,
-  ted,
-  baseball,
-  govCheese,
-  shrinking,
-];
 
-function TVCarousel() {
-  const [current, setCurrent] = useState(0);
+const realSlides = [
+    <Season/>,
+    <FriendNeighbor/>,
+    <Studio/>,
+    <Careme/>,
+    <Severance/>,
+    <DopeThief/>,
+    <Ted/>,
+    <Baseball/>,
+    <GovCheese/>,
+    <Shrink/>
+]
 
-  const nextSlide = () => {
-    setCurrent((prev) => (prev + 1) % images.length);
-  };
+const slides = [realSlides[realSlides.length - 1], ...realSlides, realSlides[0]];
 
-  const prevSlide = () => {
-    setCurrent((prev) => (prev - 1 + images.length) % images.length);
-  };
+export default function TVCarousel() {
+    // const [current, setCurrent] = useState(1);
+    // const [isTransitioning, setIsTransitioning] = useState(true);
 
-  return (
-    <>
-        <div className="relative w-full overflow-hidden h-170 mt-3">
-            <div
-                className="flex transition-transform duration-500 ml-14 mr-38 gap-4"
-                style={{ transform: `translateX(-${current * 100}%)` }}>
-                {images.map((src, idx) => (
-                <img
-                    key={idx}
-                    src={src}
-                    className="min-w-full h-full object-cover"
-                    alt={`Slide ${idx + 1}`}
-                />
-                ))}
-            </div>
+    // const nextSlide = () => {
+    //     setCurrent((prev) => prev + 1);
+    // };
 
-            <button
-                onClick={prevSlide}
-                className="absolute top-1/2 left-4 -translate-y-1/2 bg-white bg-opacity-80 px-3 py-1 rounded-full shadow"
-            >
-                ‹
-            </button>
-            <button
-                onClick={nextSlide}
-                className="absolute top-1/2 right-4 -translate-y-1/2 bg-white bg-opacity-80 px-3 py-1 rounded-full shadow"
-            >
-                ›
-            </button>
+    // const prevSlide = () => {
+    //     setCurrent((prev) => prev - 1);
+    // };
 
-            <div className="absolute bottom-4 w-full flex justify-center gap-2">
-                {images.map((_, idx) => (
-                <button
-                    key={idx}
-                    onClick={() => setCurrent(idx)}
-                    className={`w-3 h-3 rounded-full ${current === idx ? "bg-black" : "bg-gray-300"}`}
-                />
-                ))}
-            </div>
-        </div>
-    </>
-  );
+    // useEffect(() => {
+    //     if(!isTransitioning) return;
+
+    //     const timeout = setTimeout(() => {
+    //         if(current === slides.length - 1) {
+    //             setIsTransitioning(false);
+    //             setCurrent(1);
+    //         } else if (current === 0) {
+    //             setIsTransitioning(false);
+    //             setCurrent(slides.length - 2);
+    //         }
+    //     }, 500);
+    //     return () => clearTimeout(timeout);
+    // }, [current]);
+
+    return(
+        <>
+            <Studio/>
+        </>
+    );
 }
-
-export default TVCarousel;
