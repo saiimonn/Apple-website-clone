@@ -21,7 +21,7 @@ export default function TVCarousel() {
 
             <div key = {idx} className = "min-w-full h-full relative">
               <img src={slide.image} alt={`Slide ${idx + 1}`} className = "w-full h-full object-cover" />
-              <div className = "absolute inset-0 pl-20 py-20 flex flex-row justify-start items-end p-8 bg-gradient-to-r from-black/50 to-transparent text-white gap-4">
+              <div className = "absolute inset-0 pl-20 py-20 flex flex-row justify-start items-end p-8  text-white gap-4">
                 <button class = "cursor-pointer px-5 py-2 bg-white text-black rounded-full w-fit">{slide.buttonCaption}</button>
                 <p className = "text-xl font-light mb-1"> <span class = "font-semibold">{slide.genre}</span> {slide.caption}</p>
               </div>
