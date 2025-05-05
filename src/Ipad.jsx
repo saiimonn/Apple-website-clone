@@ -1,4 +1,4 @@
-import ipad from './assets/ipadLG.jpg';
+import ipad from './assets/HeroImages//ipadLG.jpg';
 
 function MothersDay() {
     return(

@@ -1,4 +1,4 @@
-import IphoneHero from './assets/IphoneHero.png';
+import IphoneHero from './assets/HeroImages/IphoneHero.png';
 
 function Iphone() {
     return(

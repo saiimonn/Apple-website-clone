@@ -1,13 +1,13 @@
-import baseball from '../assets/CarouselImages/baseball.jpeg';
-import careme from '../assets/CarouselImages/careme.jpeg';
-import dThief from '../assets/CarouselImages/dopeThief.jpg';
-import friends from '../assets/CarouselImages/friendsNeighbors.jpg';
-import govCheese from '../assets/CarouselImages/govCheese.jpg';
-import season from '../assets/CarouselImages/seasonPass.jpg';
-import severance from '../assets/CarouselImages/severance.jpg';
-import shrinking from '../assets/CarouselImages/shrinking.jpeg';
-import ted from '../assets/CarouselImages/tedLasso.jpeg';
-import studio from '../assets/CarouselImages/theStudio.jpeg';
+import baseball from '../assets/TVCarouselImages/baseball.jpeg';
+import careme from '../assets/TVCarouselImages/careme.jpeg';
+import dThief from '../assets/TVCarouselImages/dopeThief.jpg';
+import friends from '../assets/TVCarouselImages/friendsNeighbors.jpg';
+import govCheese from '../assets/TVCarouselImages/govCheese.jpg';
+import season from '../assets/TVCarouselImages/seasonPass.jpg';
+import severance from '../assets/TVCarouselImages/severance.jpg';
+import shrinking from '../assets/TVCarouselImages/shrinking.jpeg';
+import ted from '../assets/TVCarouselImages/tedLasso.jpeg';
+import studio from '../assets/TVCarouselImages/theStudio.jpeg';
 
 const slides = [
   {

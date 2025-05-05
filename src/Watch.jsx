@@ -1,4 +1,4 @@
-import WatchHero from './assets/WatchHero.png';
+import WatchHero from './assets/HeroImages//WatchHero.png';
 
 function Watch({showRegionHeader}) {
     return(
