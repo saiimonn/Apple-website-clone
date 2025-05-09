@@ -5,6 +5,7 @@ import Watch from './Watch.jsx';
 import Ipad from './Ipad.jsx';
 import Gridsection from './Gridsection.jsx';
 import Bigcarousel from './TvCarousel.jsx';
+import Smallcarousel from './SmallCarousel.jsx';
 
 function App() {
   const[showRegionHeader, setRegionHeader] = useState(true);
@@ -16,7 +17,8 @@ function App() {
         <Ipad/>
         <Iphone/>
         <Gridsection/>
-        <Bigcarousel/>
+        <Bigcarousel/> 
+        <Smallcarousel/>
     </div>
   );
 }
