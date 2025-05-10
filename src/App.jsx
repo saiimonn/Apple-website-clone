@@ -6,6 +6,7 @@ import Ipad from './Ipad.jsx';
 import Gridsection from './Gridsection.jsx';
 import Bigcarousel from './TvCarousel.jsx';
 import Smallcarousel from './SmallCarousel.jsx';
+import Footer from './Footer.jsx';
 
 function App() {
   const[showRegionHeader, setRegionHeader] = useState(true);
@@ -19,6 +20,7 @@ function App() {
         <Gridsection/>
         <Bigcarousel/> 
         <Smallcarousel/>
+        <Footer/>
     </div>
   );
 }
