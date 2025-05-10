@@ -7,7 +7,7 @@ const slides = [
     {
         image: cooldown,
         title: "Strong and Calmn Combos for Busy Days",
-        category: "Fitness",
+        category: "Fitness+",
         buttonCaption: "Watch now"
     },
 
@@ -21,7 +21,7 @@ const slides = [
     {
         image: gregg,
         title: "Strength with Gregg",
-        category: "Fitness",
+        category: "Fitness+",
         buttonCaption: "Watch now"
     },
 
