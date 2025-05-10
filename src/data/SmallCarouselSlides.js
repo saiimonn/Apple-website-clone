@@ -7,28 +7,28 @@ const slides = [
     {
         image: cooldown,
         title: "Strong and Calmn Combos for Busy Days",
-        category: "Fitness",
+        category: "Fitness",
         buttonCaption: "Watch now"
     },
 
     {
         image: golf,
         title: "PGA TOUR Pro Golf",
-        category: "Arcade",
+        category: "Arcade",
         buttonCaption: "Play now"
     },
 
     {
         image: gregg,
         title: "Strength with Gregg",
-        category: "Fitness",
+        category: "Fitness",
         buttonCaption: "Watch now"
     },
 
     {
         image: balatro,
         title: "Balatro+",
-        category: "Arcade",
+        category: "Arcade",
         buttonCaption: "Play now"
     }
 ]
