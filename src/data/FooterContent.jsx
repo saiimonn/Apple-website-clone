@@ -107,7 +107,7 @@ export const upperHalf = [
     }
 ];
 
-export const lowerHalf = [
+export const firstCol = [
     {
         title: "Shop and Learn",
         contents: ["Store", "Mac", "iPad", "iPhone", "Watch", "Vision", "AirPods", "TV & Home", "AirTag", "Accessories", "Gift Cards"]
@@ -116,8 +116,10 @@ export const lowerHalf = [
     {
         title: "Apple Wallet",
         contents: ["Wallet", "Apple Card", "Apple Pay", "Apple Cash"]
-    },
+    }
+];
 
+export const secondCol = [
     {
         title: "Account",
         contents: ["Manage your Apple Account", "Apple Store Account", "iCloud.com"]
@@ -126,13 +128,17 @@ export const lowerHalf = [
     {
         title: "Entertainment",
         contents: ["Apple One", "Apple TV+", "Apple Music", "Apple Arcade", "Apple Fitness+", "Apple News+", "Apple Podcasts", "Apple Books", "App Store"]
-    },
+    }
+]
 
+export const thirdCol = [
     {
         title: "Apple Store",
         contents: ["Find a Store", "Genius Bar", "Today at Apple", "Group Reservations", "Apple Camp", "Apple Store App", "Certified Refurbished", "Apple Trade In", "Financing", "Carrier Deals at Apple", "Order Status", "Shopping Help"]
-    },
+    }
+]
 
+export const fourthCol = [
     {
         title: "For Business",
         contents: ["Apple and Business", "Shop for Business"]
@@ -151,8 +157,10 @@ export const lowerHalf = [
     {
         title: "For Government",
         contents: ["Shop for Government", "Shop for Veterans and Military"]
-    },
+    }
+]
 
+export const fifthCol = [
     {
         title: "Apple Values",
         contents: ["Accessibility", "Education", "Environment", "Inclusion and Diversity", "Privacy", "Racial Equity and Justice"]
@@ -162,4 +170,4 @@ export const lowerHalf = [
         title: "About Apple",
         contents: ["Newsroom", "Apple Leadership", "Career Opporunities", "Investors", "Ethics & Compliance", "Events", "Contact Apple"]
     }
-];
+]
