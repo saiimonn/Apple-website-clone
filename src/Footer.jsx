@@ -14,6 +14,28 @@ export default function footer() {
                 </div>
 
                 <hr className = "text-neutral-300"/>
+
+                <div className = "flex flex-nowrap text-xs font-light mt-4">
+                    <div className = "basis-[25%]">
+                        
+                    </div>
+
+                    <div className = "basis-[25%]">
+
+                    </div>
+
+                    <div className = "basis-[25%]">
+
+                    </div>
+
+                    <div className = "basis-[25%]">
+
+                    </div>
+
+                    <div className = "basis-[25%]">
+
+                    </div>
+                </div>
             </div>
         </>
     );

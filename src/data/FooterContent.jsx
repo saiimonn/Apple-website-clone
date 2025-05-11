@@ -106,3 +106,60 @@ export const upperHalf = [
         )
     }
 ];
+
+const lowerHalf = [
+    {
+        title: "Shop and Learn",
+        contents: ["Store", "Mac", "iPad", "iPhone", "Watch", "Vision", "AirPods", "TV & Home", "AirTag", "Accessories", "Gift Cards"]
+    },
+
+    {
+        title: "Apple Wallet",
+        contents: ["Wallet", "Apple Card", "Apple Pay", "Apple Cash"]
+    },
+
+    {
+        title: "Account",
+        contents: ["Manage your Apple Account", "Apple Store Account", "iCloud.com"]
+    }, 
+
+    {
+        title: "Entertainment",
+        contents: ["Apple One", "Apple TV+", "Apple Music", "Apple Arcade", "Apple Fitness+", "Apple News+", "Apple Podcasts", "Apple Books", "App Store"]
+    },
+
+    {
+        title: "Apple Store",
+        contents: ["Find a Store", "Genius Bar", "Today at Apple", "Group Reservations", "Apple Camp", "Apple Store App", "Certified Refurbished", "Apple Trade In", "Financing", "Carrier Deals at Apple", "Order Status", "Shopping Help"]
+    },
+
+    {
+        title: "For Business",
+        contents: ["Apple and Business", "Shop for Business"]
+    },
+
+    {
+        title: "For Education",
+        contents: ["Apple and Education", "Shop for K-12", "Shop for College"]
+    },
+
+    {
+        title: "For Healthcare",
+        contents: ["Apple in Healthcare", "Mac in Healthcare", "Health on Apple Watch", "Health Records on iPhone and iPad"]
+    },
+
+    {
+        title: "For Government",
+        contents: ["Shop for Government", "Shop for Veterans and Military"]
+    },
+
+    {
+        title: "Apple Values",
+        contents: ["Accessibility", "Education", "Environment", "Inclusion and Diversity", "Privacy", "Racial Equity and Justice"]
+    },
+
+    {
+        title: "About Apple",
+        contents: ["Newsroom", "Apple Leadership", "Career Opporunities", "Investors", "Ethics & Compliance", "Events", "Contact Apple"]
+    }
+];
