@@ -1,4 +1,4 @@
-import {upperHalf} from './data/FooterContent.jsx';
+import {upperHalf, lowerHalf} from './data/FooterContent.jsx';
 
 
 export default function footer() {

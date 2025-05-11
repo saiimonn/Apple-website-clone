@@ -107,7 +107,7 @@ export const upperHalf = [
     }
 ];
 
-const lowerHalf = [
+export const lowerHalf = [
     {
         title: "Shop and Learn",
         contents: ["Store", "Mac", "iPad", "iPhone", "Watch", "Vision", "AirPods", "TV & Home", "AirTag", "Accessories", "Gift Cards"]
