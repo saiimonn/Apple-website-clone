@@ -39,9 +39,9 @@ export default function TVCarousel() {
 
             <div key = {idx} className = {`min-w-full h-full relative transition-all duration-500 ease-in-out scale-100 ${idx === current ? ' opacity-100' : 'opacity-30'}`}>
               <img src={slide.image} alt={`Slide ${idx + 1}`} className = "w-full h-full object-cover" />
-              <div className = {`absolute inset-0 pl-20 py-20 flex flex-row justify-start items-end p-8  text-white gap-4 transition-all duration-1500 ease-in-out ${idx === current ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-                <button className = "cursor-pointer px-5 py-2 bg-white text-black rounded-full w-fit">{slide.buttonCaption}</button>
-                <p className = "text-xl font-light mb-1"> <span className = "font-semibold">{slide.genre}</span> {slide.caption}</p>
+              <div className = {`absolute inset-0 pl-20 py-20 flex flex-row justify-start items-end p-8 text-white gap-4 transition-all duration-1500 ease-in-out ${idx === current ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+                <button className = "cursor-pointer px-5 py-2 bg-white text-black rounded-full w-fit text-sm sm:text-base">{slide.buttonCaption}</button>
+                <p className = "text-lg sm:text-xl font-light mb-1"> <span className = "font-semibold">{slide.genre}</span> <span className="hidden sm:inline">{slide.caption}</span><span className="inline sm:hidden">{slide.caption.substring(0, 30)}{slide.caption.length > 30 ? '...' : ''}</span></p>
               </div>
             </div>
 
