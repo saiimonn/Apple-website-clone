@@ -10,7 +10,7 @@ export default function SmallCarousel() {
         style={{ animation: 'scroll 350s linear infinite' }}
       >
         {duplicatedSlides.map((slideItem, idx) => (
-          <div key={idx} className="w-120 h-60 flex-shrink-0 relative group">
+          <div key={idx} className="w-120 h-60 flex-shrink-0 relative group hover:brightness-70 hover:cursor-pointer overflow-hidden">
             <img
               src={slideItem.image}
               alt={`Slide ${idx + 1}`}
@@ -18,16 +18,15 @@ export default function SmallCarousel() {
             />
 
             <div className="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/80 to-transparent text-white">
-
-              <div className = "flex justify-between items-end">
+              <div className="flex justify-between items-end">
                 <h3 className="text-md font-medium">{slideItem.title}</h3>
                 <p className="text-lg text-gray-200">{slideItem.category}</p>
               </div>
-
-              <button className="absolute bottom-30 left-50 px-3 py-1 bg-white text-black text-sm font-medium rounded-full hover:opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                {slideItem.buttonCaption}
-              </button>
             </div>
+            
+            <button className="absolute px-3 py-2 bg-white text-black text-sm font-light rounded-full hover:opacity-90 transition-all duration-600 ease-in-out transform group-hover:-translate-y-15  translate-y-20 left-1/2 -translate-x-1/2 bottom-8 ">
+              {slideItem.buttonCaption}
+            </button>
           </div>
         ))}
       </div>
