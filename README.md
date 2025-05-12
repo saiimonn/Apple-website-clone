@@ -1,3 +1,5 @@
 # Apple Website Clone
 
-Front end practice using **React** and **TailwindCSS**
+Clone of Apple website for frontend practice, made using ReactJS and TailwindCSS.
+
+**Note**: The cloned website is not 100% accurate to the real website's layout/UI/effects.
