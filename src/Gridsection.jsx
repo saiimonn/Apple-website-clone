@@ -15,58 +15,58 @@ import Mday from './Grid Components/MothersDay.jsx';
 function Gridsection() {
     return(
         <>
-            <div class = "grid grid-cols-1 sm:grid-cols-2 mx-2 mt-4 gap-4">
-                <div class = "w-full bg-gray-100 flex justify-center">
-                    <a href="#" class = "flex flex-col items-center">
-                        <div class = "text-center absolute text-white px-4 py-2 z-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 lg:gap-6 mx-3 max-w-screen-2xl my-3 sm:my-4 lg:my-6">
+                <div className="w-full bg-gray-100 overflow-hidden relative h-[450px] sm:h-[500px] md:h-[550px] lg:h-[600px]">
+                    <a href="#" className="block relative h-full">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                             <Mday/>
                         </div>
-                        <img src={MdayMD} alt="" class = "z-0 h-screen"/>
+                        <img src={MdayMD} alt="Mother's Day" className="w-full h-full object-cover object-center" />
                     </a>
                 </div>
 
-                <div class="w-full bg-gray-100 flex justify-center">
-                    <a href="#" class="flex flex-col items-center">
-                        <div class="text-center absolute text-white px-4 py-2 z-10">
+                <div className="w-full bg-gray-100 overflow-hidden relative h-[450px] sm:h-[500px] md:h-[550px] lg:h-[600px]">
+                    <a href="#" className="block relative h-full">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                             <Macbook />
                         </div>
-                        <img src={macPic} alt="" class="z-0 h-screen" />
+                        <img src={macPic} alt="MacBook Air" className="w-full h-full object-cover object-center" />
                     </a>
                 </div>
 
-                <div class = "w-full bg-gray-100 flex justify-center">
-                    <a href="#" class = "flex flex-col items-center">
-                        <div class = "text-center absolute text-white px-4 py-2 z-10">
+                <div className="w-full bg-gray-100 overflow-hidden relative h-[450px] sm:h-[500px] md:h-[550px] lg:h-[600px]">
+                    <a href="#" className="block relative h-full">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                             <MacDoesThat/>
                         </div>
-                        <img src={macDo} alt="Mac Does That" class = "z-0" />
+                        <img src={macDo} alt="Mac Does That" className="w-full h-full object-cover object-center" />
                     </a>
                 </div>
 
-                <div class = "w-full bg-gray-100 flex justify-center">
-                    <a href="#" class = "flex flex-col items-center">
-                        <div class = "text-center absolute text-white px-4 py-2 z-10">
+                <div className="w-full bg-gray-100 overflow-hidden relative h-[450px] sm:h-[500px] md:h-[550px] lg:h-[600px]">
+                    <a href="#" className="block relative h-full">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                             <Trade/>
                         </div>
-                        <img src={tradePic} alt="" class = "z-0 w-screen"/>
+                        <img src={tradePic} alt="Trade In" className="w-full h-full object-cover object-center" />
                     </a>
                 </div>
 
-                <div class = "w-full bg-gray-100 flex justify-center">
-                    <a href="#" class = "flex flex-col items-center">
-                        <div class = "text-center absolute text-white px-4 py-2 z-10">
+                <div className="w-full bg-gray-100 overflow-hidden relative h-[450px] sm:h-[500px] md:h-[550px] lg:h-[600px]">
+                    <a href="#" className="block relative h-full">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                             <Deals/>
                         </div>
-                        <img src={promoPic} alt="" class = "z-0"/>
+                        <img src={promoPic} alt="Carrier Deals" className="w-full h-full object-cover object-center" />
                     </a>
                 </div>
 
-                <div class = "w-full bg-gray-100 flex justify-center">
-                    <a href="#" class = "flex flex-col items-center">
-                        <div class = "text-center absolute text-white px-4 py-2 z-10">
+                <div className="w-full bg-gray-100 overflow-hidden relative h-[450px] sm:h-[500px] md:h-[550px] lg:h-[600px]">
+                    <a href="#" className="block relative h-full">
+                        <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
                             <Card/>
                         </div>
-                        <img src={cardPic} alt="" class = "z-0 w-screen"/>
+                        <img src={cardPic} alt="Apple Card" className="w-full h-full object-cover object-center" />
                     </a>
                 </div>
             </div>
