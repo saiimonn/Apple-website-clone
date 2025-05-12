@@ -95,30 +95,31 @@ export const slides = [
 ];
 
 export const mobileSlides = [
-  {
-    image: friendsMB,
-    genre: "Drama •",
-    caption: "Live your best Lie.",
-    buttonCaption: "Stream now"
-  },
 
   {
     image: studioMB,
-    genre: "Comedy •",
+    genre: "Comedy ",
     caption: "Seth Rogen dives into the wild chaos of Hollywood in this all-start satire.",
     buttonCaption: "Stream now"
   },
 
   {
+    image: friendsMB,
+    genre: "Drama",
+    caption: "Live your best Lie.",
+    buttonCaption: "Stream now"
+  },
+
+  {
     image: obiwanMB,
-    genre: "Documentary •",
+    genre: "Documentary ",
     caption: "17 countries. Another epic adventure.",
     buttonCaption: "Stream now"
   },
 
   {
     image: caremeMB,
-    genre: "Drama •",
+    genre: "Drama ",
     caption: "A brilliant, seductive chef turns to espionage in Napoleon-era France.",
     buttonCaption: "Stream now"
   },
@@ -132,14 +133,14 @@ export const mobileSlides = [
 
   {
     image: severanceMB,
-    genre: "Thriller •",
+    genre: "Thriller ",
     caption: "There's more to work than life.",
     buttonCaption: "Stream now"
   }, 
 
   {
     image: dThiefMB,
-    genre: "Crime •",
+    genre: "Crime ",
     caption: "No one gets away clean.",
     buttonCaption: "Stream now"
   },
@@ -153,14 +154,14 @@ export const mobileSlides = [
 
   {
     image: tedMB,
-    genre: "Comedy •",
+    genre: "Comedy ",
     caption: "Kindness makes a comeback",
     buttonCaption: "Stream now"
   },
 
   {
     image: govCheeseMB,
-    genre: "Comedy •",
+    genre: "Comedy ",
     caption: "A second chance is never simple.",
     buttonCaption: "Stream now"
   }

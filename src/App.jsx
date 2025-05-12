@@ -12,7 +12,7 @@ function App() {
   const[showRegionHeader, setRegionHeader] = useState(true);
 
   return (
-    <div class = "min-h-screen w-full flex flex-col">
+    <div class = "min-h-screen w-full flex flex-col overflow-hidden">
         <Navbar showRegionHeader={showRegionHeader} setRegionHeader={setRegionHeader} />
         <Watch showRegionHeader={showRegionHeader}/>
         <Ipad/>
